@@ -1,0 +1,23 @@
+div.main {
+    margin-left: 200px; /* Same as the width of the sidenav */
+    color: white;
+    padding: 0px 10px;
+    text-align: center;
+}
+div.main a {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 10px black;
+    border-color: black;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: black;
+    box-shadow: 1px 1px 10px black;
+}
+div.main h2 {
+    color: red;
+    text-shadow: 1px 1px 10px red;
+}
