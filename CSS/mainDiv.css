@@ -11,11 +11,14 @@ div.main a {
     text-align: center;
     text-decoration: none;
     text-shadow: 1px 1px 10px black;
-    border-color: black;
+    border-color: aqua;
     border-style: solid;
     border-radius: 10px;
     background-color: black;
-    box-shadow: 1px 1px 10px black;
+    box-shadow: 1px 1px 10px aqua;
+}
+div.main a:hover {
+    color: aqua;
 }
 div.main h2 {
     color: red;
