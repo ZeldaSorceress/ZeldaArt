@@ -34,3 +34,16 @@ div.main footer {
     background-color: black;
     opacity: 0.8;
 }
+div.main img {
+    width: 250px;
+    height: 300px;
+    padding: 5px;
+    border-color: aqua;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px aqua;
+    opacity: 0.8;
+}
+div.main img:hover {
+    opacity: 1;
+}
