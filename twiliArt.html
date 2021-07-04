@@ -17,6 +17,15 @@
         -o-background-size: cover;
         background-size: cover;
     }
+    .toollink {
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        padding: 15px;
+    }
+    .toollink:hover {
+        border: 1px solid aqua;
+    }
 </style>
 <body>
     <div class="sidebar">
@@ -29,6 +38,8 @@
     </div>
     <div class="main">
         <h2>Right-click an image to view it in another tab<br>This should make it easier to see</h2>
+        <p class="tooltip" style="font-size:20px;">Information<span class="tooltiptext"><a href="https://zelda.fandom.com/wiki/Main_Page" class="toollink" target="_blank">Character Images</a><br><a href="" class="toollink" target="_blank">Background 1</a><br><a href="" class="toollink" target="_blank">Background 2</a><br><a href="" class="toollink" target="_blank">Background 3</a><br><a href="" class="toollink" target="_blank">Background 4</a><br><a href="" class="toollink" target="_blank">Background 5</a></span></p>
+        <br>
         <img src="RES/ganon_color.png" alt="image">
         <img src="RES/agitha_color.png" alt="image">
         <img src="RES/greatFairy_color.png" alt="image">

@@ -7,24 +7,6 @@ div.main {
     opacity: 0.8;
     box-shadow: 1px 1px 10px black;
 }
-div.main a {
-    padding: 16px;
-    font-size: 28px;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    text-shadow: 1px 1px 10px black;
-    border-color: aqua;
-    border-style: groove;
-    border-radius: 10px;
-    background-color: black;
-    box-shadow: 1px 1px 10px aqua;
-}
-div.main a:hover {
-    color: aqua;
-    border-color: red;
-    box-shadow: 1px 1px 10px red;
-}
 div.main h2 {
     color: red;
     text-shadow: 1px 1px 10px red;
@@ -49,4 +31,29 @@ div.main img {
 }
 div.main img:hover {
     opacity: 1;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 220px;
+    background-color: #262626;
+    opacity: 0.8;
+    border-color: aqua;
+    border-style: groove;
+    box-shadow: 1px 1px 10px aqua;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
 }
