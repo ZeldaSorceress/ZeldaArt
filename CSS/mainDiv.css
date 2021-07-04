@@ -1,18 +1,21 @@
 div.main {
-    margin-left: 200px; /* Same as the width of the sidenav */
+    margin-left: 210px; /* Same as the width of the sidenav */
     color: white;
     padding: 0px 10px;
     text-align: center;
+    background-color: black;
+    opacity: 0.8;
+    box-shadow: 1px 1px 10px black;
 }
 div.main a {
-    padding: 10px;
-    font-size: 20px;
+    padding: 16px;
+    font-size: 28px;
     color: white;
     text-align: center;
     text-decoration: none;
     text-shadow: 1px 1px 10px black;
     border-color: aqua;
-    border-style: solid;
+    border-style: groove;
     border-radius: 10px;
     background-color: black;
     box-shadow: 1px 1px 10px aqua;
