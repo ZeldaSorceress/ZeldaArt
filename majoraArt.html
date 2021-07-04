@@ -20,11 +20,24 @@
     .toollink {
         text-decoration: none;
         color: white;
-        font-size: 20px;
-        padding: 15px;
+        font-size: 24px;
+        background-color: black;
+        opacity: 0.8;
+        border-radius: 10px;
+        padding: 5px;
     }
     .toollink:hover {
-        border: 1px solid aqua;
+        border: 3px solid aqua;
+        border-radius: 10px;
+        box-shadow: 1px 1px 10px aqua;
+    }
+    p {
+        font-size: 20px;
+        text-shadow: 1px 1px 10px white;
+        border-radius: 10px;
+    }
+    p:hover {
+        cursor: pointer;
     }
 </style>
 <body>
@@ -38,10 +51,12 @@
     </div>
     <div class="main">
         <h2>Right-click an image to view it in another tab<br>This should make it easier to see</h2>
-        <p class="tooltip" style="font-size:20px;">Information<span class="tooltiptext"><a href="https://zelda.fandom.com/wiki/Main_Page" class="toollink" target="_blank">Character Images</a><br><a href="" class="toollink" target="_blank">Background 1</a><br><a href="" class="toollink" target="_blank">Background 2</a><br><a href="" class="toollink" target="_blank">Background 3</a><br><a href="" class="toollink" target="_blank">Background 4</a><br><a href="" class="toollink" target="_blank">Background 5</a></span></p>
+        <p class="tooltip" style="font-size:20px;">Information<span class="tooltiptext"><a href="https://zelda.fandom.com/wiki/Main_Page" class="toollink" target="_blank">Character Images</a><br><br><a href="" class="toollink" target="_blank">Background 1</a><br><br><a href="" class="toollink" target="_blank">Background 2</a><br><br></span></p>
         <br>
         <img src="RES/fierceDeity_Link_color.png" alt="image">
         <img src="RES/fierceDeity_link_color1.png" alt="image">
+        <br>
+        <br>
     </div>
 </body>
 </html>
