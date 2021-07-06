@@ -3,7 +3,7 @@ div.main {
     color: white;
     padding: 0px 10px;
     text-align: center;
-    background-color: black;
+    background-color: rgb(19, 18, 18);
     opacity: 0.8;
     box-shadow: 1px 1px 10px black;
 }
