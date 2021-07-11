@@ -1,0 +1,17 @@
+.copyright {
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    border-color: aqua;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px aqua;
+    padding: 10px;
+    text-shadow: 1px 1px 10px white;
+}
+.copyright:hover {
+    border-color: lime;
+    box-shadow: 1px 1px 10px lime;
+    color: aqua;
+    text-shadow: 1px 1px 10px aqua;
+}
