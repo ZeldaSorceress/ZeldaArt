@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/mainDiv.css">
     <link rel="stylesheet" href="CSS/toolWindow.css">
     <link rel="stylesheet" href="CSS/bgVideo.css">
+    <link rel="stylesheet" href="CSS/column.css">
 </head>
 <style>
     html,body {
@@ -23,14 +24,26 @@
         .sidenav {padding-top: 15px;}
         .sidenav a {font-size: 18px;}
     }
+    p {
+        font-size: 28px;
+    }
+    h3 {
+        font-size: 28px;
+        text-shadow: 1px 1px 10px white;
+    }
+    div.main {
+        margin-left: 200px;
+    }
 </style>
 <body>
 
-    <!---Background Video--->
+<!---Background Video--->
     <video autoplay muted loop id="myVideo">
         <source src="RES/bgVideo_Nintendo.mp4" type="video/mp4">
     </video>
+<!---End Background Video--->
 
+<!---Sidebar Navigation--->
     <div class="sidebar">
         <h2 style="color: white;">ZeldaSorceress</h2>
         <a href="" style="background-color: #262626">Home</a>
@@ -41,6 +54,9 @@
         <br>
         <a href="contactMe.html">Contact Me</a>
     </div>
+<!---End Sidebar Navigation--->
+
+<!---Main Content--->
     <div class="main">
         <br>
         <br>
@@ -50,11 +66,25 @@
         <p class="tooltip">Copyright Information<span class="tooltiptext"><br><a href="copyright.html" class="toollink">View Copyright</a><br><br></span></p>
         <br>
         <br>
-        <p class="tooltip">My Achievements<span class="tooltiptext"><br><a href="" class="toollink">View Achievements</a><br><br></span></p>
+        <div class="row">
+            <div class="column">
+                <h3>Latest Video</h3>
+                <iframe width="550" height="500" src="https://www.youtube.com/embed/UlTBkyfS6Cs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <br>
+            </div>
+            <div class="column">
+                <h3>Most Popular video</h3>
+                <iframe width="550" height="500" src="https://www.youtube.com/embed/_jD47pFKAfI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <br>
+                <br>
+            </div>
+        </div>
         <br>
         <br>
         <br>
         <br>
     </div>
+<!---End Main Content--->
 </body>
 </html>

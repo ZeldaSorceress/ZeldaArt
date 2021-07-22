@@ -17,10 +17,12 @@ div.main footer {
     text-shadow: 1px 1px 10px white;
     font-size: 28px;
     background-color: black;
-    width: 300px;
+    width: 400px;
     text-align: center;
-    position: relative;
-    float: right;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 20px;
+    border-style: outset;
+    border-color: black;
 }
 #header-section1 {
     position: relative;
@@ -28,7 +30,7 @@ div.main footer {
 #floatright {
     position: absolute;
     top: 50px;
-    right: 510px;
+    right: 450px;
 }
 div.main img {
     width: 250px;
@@ -42,6 +44,7 @@ div.main img {
 div.main img:hover {
     border-color: blue;
     box-shadow: 1px 1px 10px blue;
+    opacity: 1;
 }
 .tooltip {
     position: relative;
