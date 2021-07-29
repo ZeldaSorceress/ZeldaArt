@@ -1,13 +1,12 @@
 <!doctype html>
 <html>
 <head>
-    <title>ZSArt - Art Hub</title>
+    <title>ZSArt - Skyward Sword HD Art</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="RES/favicon.png">
     <link rel="stylesheet" href="CSS/sidebar.css">
     <link rel="stylesheet" href="CSS/mainDiv.css">
     <link rel="stylesheet" href="CSS/scrollbar.css">
-    <link rel="stylesheet" href="CSS/mainLinkDiv.css">
     <link rel="stylesheet" href="CSS/bgVideo.css">
 </head>
 <style>
@@ -19,44 +18,39 @@
         -o-background-size: cover;
         background-size: cover;
     }
-    #active:hover {
-        border-color: lime;
-        border-style: solid;
-        box-shadow: 1px 1px 10px lime;
+    #bigimg {
+        width: 500px;
     }
 </style>
 <body>
 
-<!---Background Video--->
+    <!---Background Video--->
     <video autoplay muted loop id="myVideo">
         <source src="RES/bgVideo_Nintendo.mp4" type="video/mp4">
     </video>
-
 
 <!---Sidebar Navigation--->
     <div class="sidebar">
         <h2 style="color: white;">ZeldaSorceress</h2>
         <a href="index.html">Home</a>
         <br>
-        <a href="" style="background-color: #262626">Art Hub</a>
+        <a href="artHub.html">Art Hub</a>
         <br>
         <a href="https://www.youtube.com/channel/UC6OCtItPRHJc95R5n8zQcJA" target="_blank">My YouTube</a>
     </div>
-<!---Main Section--->
+
+<!---Main Content--->
     <div class="main">
         <br>
         <br>
-        <h2>Welcome to the Art Hub!</h2>
-        <h2>Pick a game to see the art...</h2>
+        <h2>Right-click an image to view it in another tab<br>This should make it easier to see</h2>
         <br>
+        <img src="RES/zelda_color.png" alt="image" id="bigimg">
         <br>
-        <br>
-        <a href="calamityArt.html" id="active">Age of Calamity</a>
-        <a href="skywardArt.html" id="active">Skyward Sword</a>
-        <br>
+        <img src="RES/kikwi_color.png" alt="image" id="bigimg">
+        <img src="RES/linkChosen_color.png" alt="image" id="bigimg">
         <br>
         <br>
         <br>
     </div>
 </body>
-</html>
