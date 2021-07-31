@@ -8,4 +8,4 @@ or by going to index.html to be redirected to copyright.html
 
 
 If you want to contact me or need to report an issue with my project, please go to
-contactMe.html or by going to index.html and clicking on the sidebar link.
+contactMe.html.
