@@ -1,34 +1,26 @@
-.prevpage {
-    text-decoration: none;
-    font-size: 24px;
-    color: aqua;
-    text-shadow: 1px 1px 10px aqua;
-    border-style: solid;
-    border-color: white;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px white;
-    padding: 10px;
-}
-.prevpage:hover {
-    border-color: aqua;
-    box-shadow: 1px 1px 10px aqua;
+.pagination {
+    display: inline-block;
+  }
+.pagination a {
     color: white;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid white;
+    box-shadow: 1px 1px 10px white;
     text-shadow: 1px 1px 10px white;
 }
-.nextpage {
-    text-decoration: none;
-    font-size: 24px;
-    color: aqua;
-    text-shadow: 1px 1px 10px aqua;
-    border-style: solid;
-    border-color: white;
-    border-radius: 10px;
-    box-shadow: 1px 1px 10px white;
-    padding: 10px;
-}
-.nextpage:hover {
-    border-color: aqua;
-    box-shadow: 1px 1px 10px aqua;
+.pagination a.active {
+    background-color: green;
     color: white;
-    text-shadow: 1px 1px 10px white;
+    border: 1px solid white;
+}  
+.pagination a:hover:not(.active) {background-color: #ddd;}  
+.pagination a:first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.pagination a:last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
 }
