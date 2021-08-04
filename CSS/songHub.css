@@ -1,0 +1,21 @@
+.songLink {
+    text-decoration: none;
+    color: aqua;
+    text-shadow: 1px 1px 10px aqua;
+    padding: 10px;
+    font-size: 24px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px white;
+}
+.songLink:hover {
+    border-color: crimson;
+    box-shadow: 1px 1px 10px crimson;
+    color: white;
+    text-shadow: 1px 1px 10px white;
+}
+#songActive {
+    border-color: lime;
+    box-shadow: 1px 1px 10px lime;
+}
