@@ -15,7 +15,7 @@
     color: white;
     text-shadow: 1px 1px 10px white;
 }
-#songActive {
+#songActive:hover {
     border-color: lime;
     box-shadow: 1px 1px 10px lime;
 }
