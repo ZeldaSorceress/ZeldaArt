@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/pages.css">
     <link rel="stylesheet" href="CSS/imgView.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
     html,body {
@@ -35,12 +36,19 @@
     </video>
 
 <!---Navbar--->
-    <div class="navbar">
+    <div id="navbar">
         <img src="RES/favicon.png">
         <a href="index.html">Home</a>
-        <a href="artHub.html">Art Hub</a>
+        <div class="subnav">
+            <button class="subnavbtn">Art Hub <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="calamityArt.html">Age of Calamity</a>
+              <a href="skywardArt.html">Skyward Sword</a>
+              <a href="twiliArt.html">Twilight Princess</a>
+            </div>
+        </div> 
         <a href="https://www.youtube.com/channel/UC6OCtItPRHJc95R5n8zQcJA" target="_blank">My YouTube</a>
-        <a href="contactMe.html" style="float:right;">Contact</a>
+        <a href="https://forms.gle/1pjeLgzMC36ZjjBF6" target="_blank" style="float:right;">Contact</a>
     </div>
 <!---End Navbar--->
 
@@ -55,8 +63,11 @@
         <br>
         <br>
         <img src="RES/Images/AoC Art/impa_color.png" alt="image" id="bigimg">
+        <br>
         <img src="RES/Images/AoC Art/mazKoshia_color.png" alt="image" id="bigimg">
+        <br>
         <img src="RES/Images/AoC Art/astor_color.png" alt="image" id="bigimg">
+        <br>
         <img src="RES/Images/AoC Art/harbingerGanon_color.png" alt="image" id="bigimg">
         <br>
         <br>
@@ -76,5 +87,19 @@
         <br>
     </div>
 <!---End Main Content--->
+<!---Script--->
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+    </script>
+<!---End Script-->
 </body>
 </html>

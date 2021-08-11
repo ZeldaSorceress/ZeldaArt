@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="CSS/bgVideo.css">
     <link rel="stylesheet" href="CSS/column.css">
     <link rel="stylesheet" href="CSS/navbar.css">
+    <link rel="stylesheet" href="CSS/copyright.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
     html,body {
@@ -35,19 +37,6 @@
         border-style: solid;
         box-shadow: 1px 1px 10px aqua;
     }
-    .copynotify {
-        color: red;
-        text-shadow: 1px 1px 10px red;
-        background-color: #262626;
-        text-align: center;
-        padding: 10px;
-        width: 500px;
-        border-radius: 10px;
-        border-color: red;
-        border-style: solid;
-        box-shadow: 1px 1px 10px red;
-        display: inline-block;
-    }
 </style>
 <body>
 
@@ -58,12 +47,19 @@
 <!---End Background Video--->
 
 <!---Sidebar Navigation--->
-    <div class="navbar">
+    <div id="navbar">
         <img src="RES/favicon.png">
         <a href="" style="background-color: #262626">Home</a>
-        <a href="artHub.html">Art Hub</a>
+        <div class="subnav">
+            <button class="subnavbtn">Art Hub <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content">
+              <a href="calamityArt.html">Age of Calamity</a>
+              <a href="skywardArt.html">Skyward Sword</a>
+              <a href="twiliArt.html">Twilight Princess</a>
+            </div>
+        </div> 
         <a href="https://www.youtube.com/channel/UC6OCtItPRHJc95R5n8zQcJA" target="_blank">My YouTube</a>
-        <a href="contactMe.html" style="float:right;">Contact</a>
+        <a href="https://forms.gle/1pjeLgzMC36ZjjBF6" target="_blank" style="float:right;">Contact</a>
     </div>
 <!---End Sidebar Navigation--->
 
@@ -74,11 +70,6 @@
         <div class="copynotify">
             <center>
                 <h2>All images have been modified, <br>I do not own any of the used images<br> to make this art.</h2>
-                <br>
-                <br>
-                <a href="copyright.html" class="toollink">! View Copyright !</a>
-                <br>
-                <br>
             </center>
         </div>
         <div class="row">
@@ -98,8 +89,37 @@
         <br>
         <br>
         <br>
+        <div class="copyrightfix">
+            <h2>Copyrights</h2>
+            <br>
+            <a href="https://zelda.fandom.com/wiki/Main_Page" class="copyright" target="_blank">Zelda Fandom</a>
+            <a href="https://www.youtube.com/watch?v=EAPldVCRo-g" class="copyright" target="_blank">SS Background Video</a>
+            <br>
+            <br>
+            <br>
+            <a href="https://www.youtube.com/watch?v=jmzvNn4682A" class="copyright" target="_blank">AoC Background Video</a>
+            <a href="https://www.youtube.com/watch?v=LZNWbCragSk" class="copyright" target="_blank">TP Background Video</a>
+            <br>
+            <br>
+            <br>
+            <br>
+        </div>
         <br>
     </div>
 <!---End Main Content--->
+<!---Script--->
+    <script>
+        var prevScrollpos = window.pageYOffset;
+        window.onscroll = function() {
+        var currentScrollPos = window.pageYOffset;
+        if (prevScrollpos > currentScrollPos) {
+            document.getElementById("navbar").style.top = "0";
+        } else {
+            document.getElementById("navbar").style.top = "-50px";
+        }
+        prevScrollpos = currentScrollPos;
+        }
+    </script>
+<!---End Script-->
 </body>
 </html>
