@@ -1,0 +1,15 @@
+.content {
+    background-color: #262626;
+    padding: 15px;
+    border-color: aqua;
+    border-style: solid;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px aqua;
+    display: inline-block;
+}
+.content li {
+    font-size: 18px;
+}
+.details {
+    float: right;
+}
