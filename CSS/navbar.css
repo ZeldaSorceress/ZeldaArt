@@ -31,8 +31,7 @@ body {margin:0;}
 .main {
     padding: 16px;
     margin-top: 50px;
-    background-color: black;
-    opacity: 0.8;
+    background-color: #262626;
     text-align: center;
     color: white;
     text-shadow: 1px 1px 10px white;
@@ -45,23 +44,26 @@ div.subnav-content {
     display: none;
     position: absolute;
     left: 0;
-    background-color: #262626;
+    background-color: darkred;
     width: 100%;
     z-index: 1;
-    color: white;
+    color: black;
+    box-shadow: 1px 1px 10px red;
+    border-radius: 10px;
 }  
 div.subnav-content a {
     float: left;
-    color: white;
+    color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px crimson;
     text-decoration: none;
 }  
 div.subnav-content a:hover {
-    background-color: #262626;
+    background-color: black;
     color: white;
 }
 div.subnav:hover .subnav-content {
     display: block;
-    display: inline-block;
 }
 div.subnav {
     float: left;
@@ -78,6 +80,6 @@ div.subnav .subnavbtn {
     margin: 0;
 }
 div.subnav:hover .subnavbtn {
-    background-color: white;
+    background-color: crimson;
     color: black;
 }
