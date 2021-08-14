@@ -28,6 +28,7 @@ body {margin:0;}
     width: 50px;
     height: 50px;
 }
+/*
 .main {
     padding: 16px;
     margin-top: 50px;
@@ -37,7 +38,7 @@ body {margin:0;}
     text-shadow: 1px 1px 10px white;
     height: 100%;
 }
-
+*/
 
 
 div.subnav-content {
@@ -48,14 +49,12 @@ div.subnav-content {
     width: 100%;
     z-index: 1;
     color: black;
-    box-shadow: 1px 1px 10px red;
     border-radius: 10px;
 }  
 div.subnav-content a {
     float: left;
     color: black;
     border-radius: 10px;
-    box-shadow: 1px 1px 10px crimson;
     text-decoration: none;
 }  
 div.subnav-content a:hover {

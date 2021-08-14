@@ -13,3 +13,7 @@
 .details {
     float: right;
 }
+.details li {
+    display: inline-block;
+    display: block;
+}
