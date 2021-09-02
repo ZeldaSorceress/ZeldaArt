@@ -1,0 +1,21 @@
+.downloadMe {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 16px 18px;
+    color: aqua;
+    text-shadow: 1px 1px 10px aqua;
+    border-color: green;
+    border-style: solid;
+    border-radius: 10px;
+    background-color: green;
+    box-shadow: 1px 1px 10px green;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+.downloadMe:hover {
+    background-color: darkgreen;
+    border-color: darkgreen;
+    color: aquamarine;
+    text-shadow: 1px 1px 10px aquamarine;
+}
