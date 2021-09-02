@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="CSS/scrollbar.css">
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/imgText.css">
+    <link rel="stylesheet" href="CSS/column.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
@@ -24,8 +25,7 @@
         color: white;
     }
     #bigimg {
-        width: 50%;
-        height: 50%;
+        width: 100%;
         filter: grayscale(100%);
     }
 </style>
@@ -57,28 +57,38 @@
     <div class="main">
         <br>
         <br>
-        <div class="container">
-            <img src="RES/Images/SS Art/headmasterG_color.png" alt="image" id="bigimg">
-            <div class="centered">
-                <h2>Download the image to <br>view it in color</h2>
+        <div class="row">
+            <div class="column">
+                <div class="container">
+                    <img src="RES/Images/SS Art/headmasterG_color.png" alt="image" id="bigimg">
+                    <div class="centered">
+                        <h2>Download the image to <br>view it in color</h2>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <img src="RES/Images/SS Art/zelda_color.png" alt="image" id="bigimg">
-            <div class="centered">
-                <h2>Download the image to <br>view it in color</h2>
+            <div class="column">
+                <div class="container">
+                    <img src="RES/Images/SS Art/zelda_color.png" alt="image" id="bigimg">
+                    <div class="centered">
+                        <h2>Download the image to <br>view it in color</h2>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <img src="RES/Images/SS Art/kikwi_color.png" alt="image" id="bigimg">
-            <div class="centered">
-                <h2>Download the image to <br>view it in color</h2>
+            <div class="column">
+                <div class="container">
+                    <img src="RES/Images/SS Art/kikwi_color.png" alt="image" id="bigimg">
+                    <div class="centered">
+                        <h2>Download the image to <br>view it in color</h2>
+                    </div>
+                </div>
             </div>
-        </div>
-        <div class="container">
-            <img src="RES/Images/SS Art/linkChosen_color.png" alt="image" id="bigimg">
-            <div class="centered">
-                <h2>Download the image to <br>view it in color</h2>
+            <div class="column">
+                <div class="container">
+                    <img src="RES/Images/SS Art/linkChosen_color.png" alt="image" id="bigimg">
+                    <div class="centered">
+                        <h2>Download the image to <br>view it in color</h2>
+                    </div>
+                </div>
             </div>
         </div>
         <br>
@@ -87,18 +97,7 @@
         <br>
     </div>
 <!---Script--->
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-        } else {
-            document.getElementById("navbar").style.top = "-50px";
-        }
-        prevScrollpos = currentScrollPos;
-        }
-    </script>
+    <script src="scrollNav.js"></script>
     <script src="JS/rightClick.js"></script>
 <!---End Script-->
 </body>

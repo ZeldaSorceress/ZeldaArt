@@ -65,31 +65,6 @@
               <a href="https://zelda.fandom.com/wiki/Main_Page">Zelda Fandom</a>
             </div>
         </div>
-<!---Login Form--->
-        <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-        <div id="id01" class="modal">
-  
-            <form class="modal-content animate" action="" method="post">
-              <div class="imgcontainer">
-                <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-              </div>
-          
-              <div class="container">
-                <label for="uname"><b>Username</b></label>
-                <input type="text" placeholder="Enter Username" name="uname" required>
-          
-                <label for="psw"><b>Password</b></label>
-                <input type="password" placeholder="Enter Password" name="psw" required>
-                  
-                <button type="submit">Login</button>
-              </div>
-          
-              <div class="container" style="background-color:black">
-                <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-              </div>
-            </form>
-          </div>
-<!---End Login Form--->
     </div>
 <!---End Sidebar Navigation--->
 
@@ -106,13 +81,13 @@
         <div class="row">
             <div class="column">
                 <h3>Most Recent Video</h3>
-                <iframe width="350" height="250" src="https://www.youtube.com/embed/H4J54SJKfeg" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="550" height="350" src="https://www.youtube.com/embed/H4J54SJKfeg" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <br>
                 <br>
             </div>
             <div class="column">
                 <h3>Most Popular video</h3>
-                <iframe width="350" height="250" src="https://www.youtube.com/embed/_jD47pFKAfI" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe width="550" height="350" src="https://www.youtube.com/embed/_jD47pFKAfI" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                 <br>
                 <br>
             </div>
@@ -124,28 +99,7 @@
     </div>
 <!---End Main Content--->
 <!---Script--->
-    <script>
-        var prevScrollpos = window.pageYOffset;
-        window.onscroll = function() {
-        var currentScrollPos = window.pageYOffset;
-        if (prevScrollpos > currentScrollPos) {
-            document.getElementById("navbar").style.top = "0";
-        } else {
-            document.getElementById("navbar").style.top = "-50px";
-        }
-        prevScrollpos = currentScrollPos;
-        }
-
-        // Get the modal
-        var modal = document.getElementById('id01');
-
-        // When the user clicks anywhere outside of the modal, close it
-        window.onclick = function(event) {
-            if (event.target == modal) {
-                modal.style.display = "none";
-            }
-        }
-    </script>
+    <script src="scrollNav.js"></script>
 <!---End Script-->
 </body>
 </html>
