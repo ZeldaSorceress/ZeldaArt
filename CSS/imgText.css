@@ -1,12 +1,10 @@
 .container {
     position: relative;
-    font-family: Arial;
+    box-shadow: 1px 1px 10px black;
+    width: 20%;
+    display: inline-block;
 }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: none;
-    width: 75%;
+.text {
+    background: none;
+    display: inline-block;
 }

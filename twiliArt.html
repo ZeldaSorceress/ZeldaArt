@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="CSS/scrollbar.css">
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/imgText.css">
-    <link rel="stylesheet" href="CSS/column.css">
     <link rel="stylesheet" href="CSS/downloadMe.css">
     <link rel="stylesheet" href="CSS/dropdown.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -26,17 +25,10 @@
         text-align: center;
         color: white;
     }
-    #bigimg {
-        width: 100%;
-        filter: grayscale(100%);
-    }
-    .column {
-        float: none;
-        width: 100%;
-        padding: 0;
-    }
     img {
         filter: grayscale(100%);
+        width: 100%;
+        object-fit: cover;
     }
     h2 {
         padding: 20px;
@@ -51,7 +43,6 @@
         <div class="dropdown">
             <button class="dropbtn">Art Hub <i class="fa fa-caret-down"></i></button>
             <div class="dropdown-content">
-              <a href="skywardArt.html">Skyward Sword</a>
               <a href="twiliArt.html">Twilight Princess</a>
             </div>
         </div>
@@ -74,72 +65,36 @@
         <br>
         <br>
         <br>
-        <div class="row">
-            <div class="column">
-                <div class="container">
-                    <div class="dropdown">
-                        <img src="RES/Images/TP Art/darbus_color.png" class="dropbtn" style="width:300px">
-                        <div class="dropdown-content">
-                            <img src="RES/Images/TP Art/darbus_color.png" id="bigimg">
-                            <div class="centered">
-                                <br>
-                                <a href="RES/Images/TP Art/darbus_color.png" target="_blank" download class="downloadMe"><i class="fa fa-download"></i>Download Me</a>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="container">
-                    <div class="dropdown">
-                        <img src="RES/Images/TP Art/gorCoron_color.png" class="dropbtn" style="width:300px">
-                        <div class="dropdown-content">
-                            <img src="RES/Images/TP Art/gorCoron_color.png" id="bigimg">
-                            <div class="centered">
-                                <br>
-                                <a href="RES/Images/TP Art/gorCoron_color.png" target="_blank" download class="downloadMe"><i class="fa fa-download"></i>Download Me</a>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="container">
-                    <div class="dropdown">
-                        <img src="RES/Images/TP Art/yeta_color.png" class="dropbtn" style="width:300px">
-                        <div class="dropdown-content">
-                            <img src="RES/Images/TP Art/yeta_color.png" id="bigimg">
-                            <div class="centered">
-                                <br>
-                                <a href="RES/Images/TP Art/yeta_color.png" target="_blank" download class="downloadMe"><i class="fa fa-download"></i>Download Me</a>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="column">
-                <div class="container">
-                    <div class="dropdown">
-                        <img src="RES/Images/TP Art/yeto_color.png" class="dropbtn" style="width:300px">
-                        <div class="dropdown-content">
-                            <img src="RES/Images/TP Art/yeto_color.png" id="bigimg">
-                            <div class="centered">
-                                <br>
-                                <a href="RES/Images/TP Art/yeto_color.png" target="_blank" download class="downloadMe"><i class="fa fa-download"></i>Download Me</a>
-                                <br>
-                                <br>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+    <!---Images--->
+        <div class="container">
+            <img src="RES/Images/TP Art/darbus_color.png">
+            <div class="text">
+                <a href="RES/Images/TP Art/darbus_color.png" target="_blank" download class="downloadMe"><i class="fa fa-download"></i>Download Me</a>
+                <br>
             </div>
         </div>
+        <div class="container">
+            <img src="RES/Images/TP Art/gorCoron_color.png">
+            <div class="text">
+                <a href="RES/Images/TP Art/gorCoron_color.png" target="_blank" download class="downloadMe"><i class="fa fa-download"></i>Download Me</a>
+                <br>
+            </div>
+        </div>
+        <div class="container">
+            <img src="RES/Images/TP Art/yeta_color.png" style="height: 175px;">
+            <div class="text">
+                <a href="RES/Images/TP Art/yeta_color.png" target="_blank" download class="downloadMe"><i class="fa fa-download"></i>Download Me</a>
+                <br>
+            </div>
+        </div>
+        <div class="container">
+            <img src="RES/Images/TP Art/yeto_color.png" style="height: 175px;">
+            <div class="text">
+                    <a href="RES/Images/TP Art/yeto_color.png" target="_blank" download class="downloadMe"><i class="fa fa-download"></i>Download Me</a>
+                <br>
+            </div>
+        </div>
+    <!---End Images--->
         <br>
         <br>
         <br>
