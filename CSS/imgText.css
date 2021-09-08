@@ -6,5 +6,13 @@
 }
 .text {
     background: none;
-    display: inline-block;
+    width: 100%;
+    object-fit: cover;
+    transform: translate(-1%, -10%);
+    align-items: center;
+    justify-content: center;
+    line-height: 10px;
+}
+.text a {
+    float: left;
 }
