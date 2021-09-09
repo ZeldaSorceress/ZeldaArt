@@ -5,14 +5,19 @@
     display: inline-block;
 }
 .text {
-    background: none;
     width: 100%;
     object-fit: cover;
     transform: translate(-1%, -10%);
     align-items: center;
     justify-content: center;
     line-height: 10px;
+    background: none;
 }
 .text a {
     float: left;
+    background-image: linear-gradient(#363636, black);
+    width: 35%;
+    object-fit: cover;
+    text-align: center;
+    transform: translate(10%, -1%);
 }
