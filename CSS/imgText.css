@@ -13,6 +13,10 @@
     line-height: 10px;
     background: none;
 }
+.text h3,h4 {
+    color: aqua;
+    text-shadow: 1px 1px 10px aqua;
+}
 .text a {
     float: left;
     background-image: linear-gradient(#363636, black);
@@ -20,4 +24,7 @@
     object-fit: cover;
     text-align: center;
     transform: translate(10%, -1%);
+}
+.text a:hover {
+    background-image: linear-gradient(black, #363636);
 }
