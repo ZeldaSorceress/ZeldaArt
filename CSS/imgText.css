@@ -13,6 +13,16 @@
     line-height: 10px;
     background: none;
 }
+.text ul,li {
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.text li {
+    font-size: 16px;
+    float: left;
+}
 .text h3,h4 {
     color: aqua;
     text-shadow: 1px 1px 10px aqua;

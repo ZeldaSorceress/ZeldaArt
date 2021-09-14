@@ -25,6 +25,15 @@
         width: 100%;
         object-fit: cover;
     }
+    .stats {
+        display: inline-block;
+        background-image: linear-gradient(black, #363636);
+        width: 20%;
+        object-fit: cover;
+    }
+    .stats:hover {
+        background-image: linear-gradient(#363636, black);
+    }
 </style>
 <body>
 
@@ -53,13 +62,8 @@
     <div class="main">
         <br>
         <br>
-        <div class="container">
-            <img src="RES/Zelda_Logo.svg" alt="image">
-            <div class="text">
-                <center>
-                    <a href="twiliStats.html" class="downloadMe" style="width:75%;"><i class="fa fa-address-book"></i> Stats</a>
-                </center>
-            </div>
+        <div class="stats">
+            <a href="twiliStats.html" class="downloadMe" style="width:75%;"><i class="fa fa-address-book"></i> Stats</a>
         </div>
         <br>
         <br>

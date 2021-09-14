@@ -26,6 +26,23 @@
     width: 500px;
     display: inline-block;
 }
+.copynotify a {
+    text-decoration: none;
+    font-size: 20px;
+    color: lime;
+    text-shadow: 1px 1px 10px lime;
+    border-color: green;
+    border-style: solid;
+    padding: 14px 16px;
+    width: 50%;
+    object-fit: cover;
+    display: inline-block;
+    background-color: green;
+    box-shadow: 1px 1px 10px green;
+}
+.copynotify a:hover {
+    background-color: darkgreen;
+}
 .copyrightfix {
     background-color: #262626;
     padding: 10px;
