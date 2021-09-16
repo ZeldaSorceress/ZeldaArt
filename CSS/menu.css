@@ -1,6 +1,6 @@
 .menu {
     position: relative;
-    display: block;
+    display: inline-block;
 }
 .menubtn {
     background-color: #363636;
@@ -10,7 +10,7 @@
     text-shadow: 1px 1px 10px white;
     padding: 14px 16px;
     text-align: center;
-    width: 900px !important;
+    width: 500px !important;
     display: inline-block;
 }
 .menu-content {
@@ -18,13 +18,25 @@
 }
 .menu:hover .menu-content{
     display: block;
+    background-color: black;
+    box-shadow: 1px 1px 10px black;
+    border-radius: 10px;
 }
 .menu:hover .menubtn {
-    background-color: black;
+    background-color: gray;
+    color: black;
+    text-shadow: 1px 1px 10px black;
 }
 .menu-content img {
-    width: 20%;
+    width: 80px;
+    height: 75px;
     object-fit: cover;
     display: inline-block;
-    height: 178px;
+    opacity: 0.8;
+}
+.menu-content img:hover {
+    opacity: 1;
+    cursor: pointer;
+    border-color: aqua;
+    border-style: solid;
 }
