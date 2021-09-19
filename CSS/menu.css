@@ -32,11 +32,12 @@
     height: 75px;
     object-fit: cover;
     display: inline-block;
-    opacity: 0.8;
+    filter: grayscale(100%);
 }
 .menu-content img:hover {
-    opacity: 1;
     cursor: pointer;
     border-color: aqua;
     border-style: solid;
+    filter: grayscale(0%);
+    box-shadow: 1px 1px 10px aqua;
 }
