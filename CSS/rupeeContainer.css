@@ -1,0 +1,38 @@
+.rupeeContainer {
+    background-color: black;
+    display: inline-block;
+    width: 20%;
+    box-shadow: 1px 1px 10px black;
+}
+.rupeeContainer h2 {
+    color: lime;
+}
+.rupeebuy {
+    padding: 5px;
+}
+.rupeebuy button {
+    padding: 14px 16px;
+    width: 100%;
+    cursor: pointer;
+    background-color: gray;
+    font-size: 20px;
+    object-fit: cover;
+}
+.sale {
+    position: absolute;
+    background-color: red;
+    padding: 5px;
+    box-shadow: 1px 1px 10px red;
+}
+
+.productcontainer {
+    background-color: black;
+    width: 20%;
+    display: inline-block;
+}
+.productPopular {
+    position: absolute;
+    background-color: red;
+    padding: 5px;
+    box-shadow: 1px 1px 10px red;
+}
