@@ -1,0 +1,42 @@
+.storeSide {
+    background-color: black;
+    float: left;
+    width: 120px;
+    overflow: hidden;
+    padding: 15px;
+    height: 100%;
+}
+.storeSide img {
+    width: 80px;
+}
+.salebubble {
+    background-color: red;
+    border-radius: 10px;
+    float: left;
+    width: 40px;
+    position: absolute;
+    opacity: 0.8;
+    box-shadow: 1px 1px 10px red;
+}
+.salebubble p {
+    font-size: 14px;
+    text-shadow: 1px 1px 10px white;
+    color: white;
+}
+.divContainer:hover {
+    cursor: pointer;
+}
+
+
+.product {
+    background-color: black;
+    height: 100%;
+    float: right !important;
+    width: 120px;
+    overflow: hidden;
+    padding: 15px;
+    text-align: center;
+}
+.product img {
+    width: 80px;
+}
