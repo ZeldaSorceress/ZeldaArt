@@ -1,4 +1,4 @@
-var message="Function Disabled!";
+var message="Right click is disabled!";
 
     function clickIE4(){
         if (event.button==2){
