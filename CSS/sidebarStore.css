@@ -1,6 +1,12 @@
+p {
+    font-size: 18px;
+    padding: 10px;
+    background-color: black;
+}
+
 .storeSide {
     float: left;
-    width: 140px;
+    width: 180px;
     overflow: hidden;
     padding: 5px;
     background-color: #262626;
@@ -15,11 +21,11 @@
     outline: none;
     padding: 14px 16px;
     border-color: black;
-    box-shadow: 1px 1px 10px black;
     color: white;
-    text-shadow: 1px 1px 10px white;
     width: 100%;
     object-fit: fill;
+    opacity: 0.8;
+    font-size: 18px;
 }
 .storeSide button:hover {
     cursor: pointer;
@@ -30,33 +36,12 @@
 }
 
 
-.product {
-    float: right !important;
-    width: 150px;
-    overflow: hidden;
-    padding: 15px;
-    text-align: center;
-}
-.product img {
-    width: 80px;
-}
-.product button {
-    background-color: black;
-    outline: none;
-    padding: 14px 16px;
-    border-color: black;
-    box-shadow: 1px 1px 10px black;
-    color: white;
-    text-shadow: 1px 1px 10px white;
-    width: 100%;
-    object-fit: fill;
-}
-
 .mproduct {
     display: inline-block;
     overflow: hidden;
     padding: 15px;
     text-align: center;
+    width: 80%;
 }
 .mproduct img {
     width: 80px;
@@ -66,9 +51,12 @@
     outline: none;
     padding: 14px 16px;
     border-color: black;
-    box-shadow: 1px 1px 10px black;
     color: white;
-    text-shadow: 1px 1px 10px white;
     width: 100%;
     object-fit: fill;
+    opacity: 0.8;
+    font-size: 18px;
+}
+.mproduct button:hover {
+    cursor: pointer;
 }
