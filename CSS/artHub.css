@@ -1,0 +1,72 @@
+.sideArt {
+    background-color: #363636;
+    float: left;
+    width: 200px;
+}
+.sideArt button {
+    background-color: black;
+    width: 100%;
+    object-fit: fill;
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    outline: none;
+    font-size: 18px;
+    opacity: 0.8;
+    border-color: black;
+}
+.sideArt button:hover {
+    cursor: pointer;
+}
+
+.r1,.r2,.r3,.r4,.r5 {
+    background-color: #363636;
+    display: inline-block;
+    width: 60%;
+    overflow: hidden;
+}
+.r1 p {
+    background-color: black;
+    padding: 14px 16px;
+    font-size: 18px;
+    width: 100%;
+    object-fit: fill;
+}
+.r2 p {
+    background-color: black;
+    padding: 14px 16px;
+    font-size: 18px;
+    width: 100%;
+    object-fit: fill;
+}
+.r3 p {
+    background-color: black;
+    padding: 14px 16px;
+    font-size: 18px;
+    width: 100%;
+    object-fit: fill;
+}
+.r4 p {
+    background-color: black;
+    padding: 14px 16px;
+    font-size: 18px;
+    width: 100%;
+    object-fit: fill;
+}
+.r5 p {
+    background-color: black;
+    padding: 14px 16px;
+    font-size: 18px;
+    width: 100%;
+    object-fit: fill;
+}
+
+.images img {
+    filter: grayscale(100%);
+    width: 20%;
+    height: 120px;
+}
+.images img:hover {
+    filter: grayscale(0%);
+    cursor: pointer;
+}
