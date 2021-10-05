@@ -22,8 +22,13 @@
 .r1,.r2,.r3,.r4,.r5 {
     background-color: #363636;
     display: inline-block;
-    width: 60%;
+    width: 45%;
     overflow: hidden;
+    color: white;
+    text-shadow: 1px 1px 10px white;
+}
+.r2,.r3,.r4,.r5 {
+    transform: translate(14.5%, 5%);
 }
 .r1 p {
     background-color: black;
@@ -69,4 +74,6 @@
 .images img:hover {
     filter: grayscale(0%);
     cursor: pointer;
+    border-color: aqua;
+    border-style: solid;
 }
