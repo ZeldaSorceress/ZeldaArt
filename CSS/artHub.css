@@ -77,3 +77,14 @@
     border-color: aqua;
     border-style: solid;
 }
+
+
+.news {
+    float: right;
+    background-color: #363636;
+    padding: 14px 16px;
+    width: 180px;
+    object-fit: fill;
+    text-align: center;
+    opacity: 0.8;
+}

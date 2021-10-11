@@ -23,7 +23,7 @@
     background-color: #262626;
     text-align: center;
     padding: 10px;
-    width: 500px;
+    width: 30%;
     display: inline-block;
 }
 .copynotify a {
@@ -34,9 +34,8 @@
     border-color: green;
     border-style: solid;
     padding: 14px 16px;
-    width: 50%;
-    object-fit: cover;
-    display: inline-block;
+    width: 100%;
+    object-fit: fill;
     background-color: green;
     box-shadow: 1px 1px 10px green;
 }
