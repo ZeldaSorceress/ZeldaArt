@@ -1,0 +1,44 @@
+.copynotify {
+    background-color: #363636;
+    text-align: center;
+    width: 120px;
+    position: absolute;
+    padding: 14px 16px;
+}
+.copynotify a {
+    text-decoration: none;
+    padding: 14px 16px;
+    width: 100% !important;
+    object-fit: fill;
+    background-color: black;
+    color: white;
+    text-shadow: 1px 1px 10px white;
+}
+.copynotify a:hover {
+    background-color: purple;
+}
+
+
+.mid {
+    background-color: #363636;
+    display: inline-block;
+    padding: 14px 16px;
+    width: 50%;
+}
+.mid h3 {
+    color: white;
+    text-shadow: 1px 1px 10px white;
+    background-color: black;
+    border-color: black;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px black;
+    padding: 14px 16px;
+    text-align: center;
+}
+.mid iframe {
+    border-color: aqua;
+    border-style: solid;
+    box-shadow: 1px 1px 10px aqua;
+    background-color: black;
+    border-radius: 10px;
+}
