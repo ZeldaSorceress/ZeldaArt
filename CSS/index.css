@@ -37,8 +37,8 @@
 
 footer {
     background-color: #363636;
-    padding: 14px 16px;
-    width: 30%;
+    padding: 24px 16px;
+    width: 15%;
     border-radius: 10px;
     border-style: solid;
     border-color: black;
@@ -57,4 +57,19 @@ footer a:hover {
     cursor: pointer;
     color: aqua;
     text-shadow: 1px 1px 10px aqua;
+}
+
+
+
+.codeView {
+    background-color: black;
+    padding: 14px 16px;
+    width: 100%;
+    color: white;
+    text-shadow: 1px 1px 10px white;
+    text-decoration: none;
+}
+.codeView:hover {
+    text-shadow: 1px 1px 10px aqua;
+    color: aqua;
 }
