@@ -78,7 +78,6 @@
         <br>
         <br>
         <a href="CSS/artHub.css" target="_blank" class="codeView">View CSS</a>
-        <a href="RES/Documents/artHub.txt" target="_blank" class="codeView">View HTML</a>
         <br>
         <br>
         <br>

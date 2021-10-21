@@ -74,7 +74,6 @@
         <br>
         <a href="CSS/index.css" target="_blank" class="codeView">View CSS</a>
         <a href="CSS/navbar.css" target="_blank" class="codeView">View CSS 2</a>
-        <a href="RES/Documents/index.txt" target="_blank" class="codeView">View HTML</a>
         <br>
         <br>
         <br>
