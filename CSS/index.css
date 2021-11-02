@@ -33,7 +33,7 @@
     border-style: solid;
     padding: 14px 16px;
     box-shadow: 1px 1px 10px black;
-    width: 80%;
+    width: 85%;
 }
 .video p {
     color: white;
@@ -102,4 +102,23 @@ footer a:hover {
 .sidebarN a:hover {
     color: lime;
     text-shadow: 1px 1px 10px lime;
+}
+
+
+.facts {
+    text-align: center;
+    display: inline-block;
+    background-color: #363636;
+    border-color: black;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 14px 16px;
+    box-shadow: 1px 1px 10px black;
+    width: 50%;
+}
+.facts p {
+    color: white;
+    text-shadow: 1px 1px 10px white;
+    font-size: 18px;
+    line-height: 2;
 }
