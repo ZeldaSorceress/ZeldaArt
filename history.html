@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="CSS/index.css">
     <link rel="stylesheet" href="CSS/dropdown.css">
     <link rel="stylesheet" href="CSS/history.css">
+    <link rel="stylesheet" href="CSS/panel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
@@ -45,37 +46,59 @@
 <!---Sidebar Nav--->
 <div class="sidebarN">
     <br>
-    <a href="index.html"><i class="fa fa-home"></i> | Home</a>
+    <br>
+    <button class="accordion">My Socials</button>
+    <div class="panel">
+        <br>
+        <br>
+        <a href="https://twitter.com/kaitlyn51324609" target="_blank"><i class="fa fa-twitter"></i> | Twitter</a>
+        <br>
+        <br>
+        <br>
+        <a href="https://www.twitch.tv/galaxy_queen18" target="_blank"><i class="fa fa-twitch"></i> | Twitch</a>
+        <br>
+        <br>
+        <br>
+        <a href="https://www.youtube.com/channel/UC6OCtItPRHJc95R5n8zQcJA" target="_blank"><i class="fa fa-youtube-play"></i> | YouTube</a>
+        <br>
+        <br>
+        <br>
+    </div>
     <br>
     <br>
     <br>
-    <a href="https://twitter.com/kaitlyn51324609" target="_blank"><i class="fa fa-twitter"></i> | My Twitter</a>
+    <button class="accordion">Site Pages</button>
+    <div class="panel">
+        <br>
+        <br>
+        <a href="index.html"><i class="fa fa-home"></i> | Home</a>
+        <br>
+        <br>
+        <br>
+        <a href="artHub.html"><i class="fa fa-paint-brush"></i> | Art Hub</a>
+        <br>
+        <br>
+        <br>
+        <a href="history.html"><i class="fa fa-history"></i> | History</a>
+        <br>
+        <br>
+        <br>
+    </div>
     <br>
     <br>
     <br>
-    <a href="https://www.twitch.tv/galaxy_queen18" target="_blank"><i class="fa fa-twitch"></i> | My Twitch</a>
-    <br>
-    <br>
-    <br>
-    <a href="https://www.youtube.com/channel/UC6OCtItPRHJc95R5n8zQcJA" target="_blank"><i class="fa fa-youtube-play"></i> | YouTube</a>
-    <br>
-    <br>
-    <br>
-    <a href="artHub.html"><i class="fa fa-paint-brush"></i> | Art Hub</a>
-    <br>
-    <br>
-    <br>
-    <a href="history.html"><i class="fa fa-history"></i> | History</a>
-    <br>
-    <br>
-    <br>
-    <a href="https://zelda.fandom.com/wiki/Main_Page" target="_blank"><i class="fa fa-copyright"></i> | Copyright</a>
-    <br>
-    <br>
-    <br>
-    <a href="https://forms.gle/1pjeLgzMC36ZjjBF6" target="_blank"><i class="fa fa-phone"></i> | Contact</a>
-    <br>
-    <br>
+    <button class="accordion">Info/Contact</button>
+    <div class="panel">
+        <br>
+        <br>
+        <a href="https://zelda.fandom.com/wiki/Main_Page" target="_blank"><i class="fa fa-copyright"></i> | Copyright</a>
+        <br>
+        <br>
+        <br>
+        <a href="https://forms.gle/1pjeLgzMC36ZjjBF6" target="_blank"><i class="fa fa-phone"></i> | Contact</a>
+        <br>
+        <br>
+    </div>
 </div>
 <!---End Sidebar Nav--->
 
@@ -128,3 +151,5 @@
     </div>
 <!---End Main Content-->
 </body>
+<script src="JS/panel.js"></script>
+<script src="JS/rightClick.js"></script>
