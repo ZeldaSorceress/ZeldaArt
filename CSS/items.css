@@ -15,3 +15,14 @@
     color: white;
     text-shadow: 1px 1px 10px white;
 }
+.itemdesc p {
+    line-height: 2;
+    position: relative;
+}
+.item h2 {
+    color: white;
+    text-shadow: 1px 1px 30px white;
+    background-color: black;
+    padding: 15px;
+    border-radius: 10px;
+}
