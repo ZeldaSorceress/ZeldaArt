@@ -1,5 +1,4 @@
 .itemlist {
-    background-color: #363636;
     padding: 10px;
     box-shadow: 1px 1px 10px #363636;
     border: none;
@@ -22,7 +21,6 @@
 .item h2 {
     color: white;
     text-shadow: 1px 1px 30px white;
-    background-color: black;
     padding: 15px;
     border-radius: 10px;
 }
@@ -30,7 +28,6 @@
 h2 {
     color: white;
     text-shadow: 1px 1px 10px white;
-    background-color: black;
     padding: 15px;
     border-radius: 10px;
 }
