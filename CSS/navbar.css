@@ -28,17 +28,24 @@ body {margin:0;}
     float: left;
     width: 48px;
     height: 48px;
+    border-radius: 100%;
 }
 #navbar button {
     font-size: 20px;
     color: white;
     text-shadow: 1px 1px 10px white;
     transform: translate(-50%, -50%);
-    float: none;
+    float: left;
     position: absolute;
     top: 50%;
     left: 50%;
     background: none;
     outline: none;
     padding: 14px 16px;
+}
+
+.center {
+    text-align: center;
+    float: none;
+    display: inline-block;
 }
