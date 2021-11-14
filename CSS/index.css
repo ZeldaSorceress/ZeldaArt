@@ -1,124 +1,27 @@
-.mid {
-    display: inline-block;
-    padding: 14px 16px;
-    width: 100%;
-}
-.mid h3 {
-    color: white;
-    text-shadow: 1px 1px 10px white;
-    background-color: #262626;
-    border-color: black;
-    border-radius: 10px;
-    border-style: solid;
-    box-shadow: 1px 1px 10px black;
-    padding: 14px 16px;
-    text-align: center;
-}
-.mid iframe {
-    border-color: black;
-    border-style: solid;
-    box-shadow: 1px 1px 10px black;
-    border-radius: 10px;
-    width: 100%;
-    height: 400px;
-}
-
-
-.video {
-    text-align: center;
-    display: inline-block;
-    background-color: #363636;
-    border-color: black;
-    border-radius: 10px;
-    border-style: solid;
-    padding: 14px 16px;
-    box-shadow: 1px 1px 10px black;
-    width: 85%;
-}
-.video p {
-    color: white;
-    text-shadow: 1px 1px 10px white;
-    font-size: 18px;
-    line-height: 2;
-}
-
-
-footer {
-    background-color: #363636;
-    padding: 24px 16px;
-    width: 15%;
-    border-radius: 10px;
-    border-style: solid;
-    border-color: black;
-    border-width: 3px;
-    box-shadow: 1px 1px 10px black;
-    display: inline-block;
-}
-footer a {
+.recent {
     background-color: black;
-    padding: 14px 16px;
-    text-decoration: none;
     color: white;
-    text-shadow: 1px 1px 10px white;
 }
-footer a:hover {
-    cursor: pointer;
-    color: aqua;
-    text-shadow: 1px 1px 10px aqua;
-}
-
-
-
-.codeView {
+.frameleft {
     background-color: black;
-    padding: 14px 16px;
+    padding: 10px;
+}
+
+.popular {
+    background-color: black;
+    color: white;
+}
+.frameright {
+    background-color: black;
+    padding: 10px;
+}
+
+
+.descright {
     width: 100%;
-    color: white;
-    text-shadow: 1px 1px 10px white;
-    text-decoration: none;
-}
-.codeView:hover {
-    text-shadow: 1px 1px 10px aqua;
-    color: aqua;
-}
-
-
-.sidebarN {
-    float: left;
-    padding: 14px 16px;
-    background-color: #363636;
-    width: 10%;
-    position: fixed;
-    overflow: hidden;
-    height: 100%;
-}
-.sidebarN a {
-    color: black;
-    text-shadow: 1px 1px 10px white;
-    text-decoration: none;
-    font-size: 20px;
-    float: left;
-}
-.sidebarN a:hover {
-    color: lime;
-    text-shadow: 1px 1px 10px lime;
-}
-
-
-.facts {
     text-align: center;
-    display: inline-block;
-    background-color: #363636;
-    border-color: black;
-    border-radius: 10px;
-    border-style: solid;
-    padding: 14px 16px;
-    box-shadow: 1px 1px 10px black;
-    width: 40%;
 }
-.facts p {
-    color: white;
-    text-shadow: 1px 1px 10px white;
-    font-size: 16px;
-    line-height: 2;
+.descleft {
+    width: 100%;
+    text-align: center;
 }
