@@ -1,5 +1,6 @@
 .recent {
     color: white;
+    text-shadow: 1px 1px 10px white;
 }
 .frameleft {
     padding: 10px;
@@ -7,6 +8,7 @@
 
 .popular {
     color: white;
+    text-shadow: 1px 1px 10px white;
 }
 .frameright {
     padding: 10px;
@@ -14,10 +16,22 @@
 
 
 .descright {
-    width: 100%;
     text-align: center;
+    float: left;
+    margin-left: 25px;
+    background-color: #363636;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    width: 50%;
 }
 .descleft {
-    width: 100%;
     text-align: center;
+    float: right;
+    margin-right: 25px;
+    background-color: #363636;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+    width: 50%;
 }
