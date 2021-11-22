@@ -1,0 +1,13 @@
+.gallery {
+    display: inline-block;
+    text-align: center;
+}
+.gallery img {
+    width: 20%;
+    padding: 10px;
+    border-color: black;
+    border-style: solid;
+}
+.gallery a {
+    text-decoration: none;
+}
