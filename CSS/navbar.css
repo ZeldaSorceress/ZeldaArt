@@ -1,7 +1,7 @@
 body {margin:0;}
 
 #navbar {
-    background-color: #363636;
+    background-color: gray;
     position: fixed;
     top: 0;
     width: 100%;
@@ -13,12 +13,11 @@ body {margin:0;}
 #navbar a {
     float: left;
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 18px;
-    text-shadow: 1px 1px 10px white;
 }
 #navbar a:hover {
     background: white;

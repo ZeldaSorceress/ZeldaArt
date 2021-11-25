@@ -1,37 +1,20 @@
-.recent {
-    color: white;
-    text-shadow: 1px 1px 10px white;
-}
-.frameleft {
+.post {
+    background-color: lightslategray;
+    width: 50%;
+    display: inline-block;
     padding: 10px;
+    border-radius: 10px;
 }
-
-.popular {
-    color: white;
-    text-shadow: 1px 1px 10px white;
-}
-.frameright {
-    padding: 10px;
-}
-
-
-.descright {
-    text-align: center;
+.post i {
+    text-align: left;
     float: left;
-    margin-left: 25px;
-    background-color: #363636;
+    font-size: 50px;
+    background-color: black;
+    color: white;
     padding: 10px;
-    border-color: black;
-    border-style: solid;
-    width: 50%;
+    border-radius: 10px;
 }
-.descleft {
-    text-align: center;
-    float: right;
-    margin-right: 25px;
-    background-color: #363636;
-    padding: 10px;
-    border-color: black;
-    border-style: solid;
-    width: 50%;
+.post iframe {
+    width: 300px;
+    height: 250px;
 }
