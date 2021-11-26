@@ -14,7 +14,19 @@
     padding: 10px;
     border-radius: 10px;
 }
+.post img {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 70%;
+    height: 170px;
+}
 .post iframe {
     width: 300px;
     height: 250px;
+}
+.images img{
+    width: 30%;
 }
