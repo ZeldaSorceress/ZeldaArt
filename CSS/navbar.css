@@ -11,8 +11,7 @@ body {margin:0;}
     overflow: hidden;
 }
 #navbar a {
-    float: left;
-    display: block;
+    display: inline-block;
     color: black;
     text-align: center;
     padding: 14px 16px;
@@ -20,8 +19,8 @@ body {margin:0;}
     font-size: 18px;
 }
 #navbar a:hover {
-    background: white;
-    color: black;
+    background: black;
+    color: white;
 }
 #navbar img{
     float: left;
@@ -41,10 +40,4 @@ body {margin:0;}
     background: none;
     outline: none;
     padding: 14px 16px;
-}
-
-.center {
-    text-align: center;
-    float: none;
-    display: inline-block;
 }

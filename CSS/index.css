@@ -1,5 +1,5 @@
 .post {
-    background-color: lightslategray;
+    background-color: #262626;
     width: 50%;
     display: inline-block;
     padding: 10px;
@@ -14,19 +14,18 @@
     padding: 10px;
     border-radius: 10px;
 }
-.post img {
-    text-align: center;
-    font-size: 50px;
-    color: white;
-    padding: 10px;
-    border-radius: 10px;
-    width: 70%;
-    height: 170px;
-}
 .post iframe {
     width: 300px;
     height: 250px;
 }
-.images img{
-    width: 30%;
+.post h2 {
+    text-align: left;
+    margin-left: 80px;
+    color: white;
+}
+
+
+.right i{
+    float: right;
+    font-size: 18px;
 }
