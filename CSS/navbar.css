@@ -6,7 +6,6 @@ body {margin:0;}
     top: 0;
     width: 100%;
     text-align: center;
-    opacity: 0.8;
     transition: top 0.3s;
     overflow: hidden;
 }
@@ -14,9 +13,9 @@ body {margin:0;}
     display: inline-block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 10px 12px;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 15px;
 }
 #navbar a:hover {
     background: black;
@@ -24,8 +23,8 @@ body {margin:0;}
 }
 #navbar img{
     float: left;
-    width: 48px;
-    height: 48px;
+    width: 35px;
+    height: 35px;
     border-radius: 100%;
 }
 #navbar button {
