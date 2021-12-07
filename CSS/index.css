@@ -14,8 +14,7 @@
     border-radius: 100%;
 }
 .post iframe {
-    width: 100%;
-    height: 150px;
+    width: 50%;
 }
 .post h2 {
     text-align: left;
@@ -41,4 +40,16 @@
     width: 80%;
     background-color: #262626;
     color: white;
+}
+
+
+.bgvideo iframe{
+    height: 500px;
+    width: 55%;
+    float: left;
+}
+.svideo iframe {
+    float: right;
+    height: 249px;
+    width: 45%;
 }
