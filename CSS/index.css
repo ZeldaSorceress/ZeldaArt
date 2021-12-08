@@ -44,12 +44,12 @@
 
 
 .bgvideo iframe{
-    height: 500px;
+    height: 400px;
     width: 55%;
     float: left;
 }
 .svideo iframe {
     float: right;
-    height: 249px;
+    height: 200px;
     width: 45%;
 }
