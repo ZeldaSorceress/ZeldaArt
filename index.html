@@ -35,16 +35,17 @@
     <div class="main">
     <!---Center--->
         <div class="post" style="width: 50%;">
-            <div class="right">
-                <form>
-                    <input type="search" placeholder="What's on your mind?">
-                    <input type="file">
-                </form>
-            </div>
+            <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search this site...">
+            <br>
+            <br>
+            <ul id="myUL">
+                <li><a href="#">Zelda Art</a></li>
+                <li><a href="#">...</a></li>
+            </ul>
         </div>
         <br>
         <br>
-        <div class="post" style="width: 50%;">
+        <div class="post" style="width: 45%;float: right;">
             <div class="bgvideo">
                 <iframe src="https://www.youtube.com/embed/vE0pJ9yYqMM" frameborder="0" allowfullscreen></iframe>
             </div>
@@ -53,22 +54,32 @@
                 <br>
                 <iframe src="https://www.youtube.com/embed/H6j1wKUpbfo" frameborder="0" allowfullscreen></iframe>
             </div>
-            <br>
-            <br>
-            <br>
+            <div class="heading">
+                <h2>My YouTube Videos</h2>
+            </div>
+        </div>
+        <div class="post" style="width: 45%;float: left;">
+            <div class="bgimg">
+                <img src="RES/Images/Hyrule Warriors/lana_fairyfountain_color.png" alt="big image">
+            </div>
+            <div class="simg">
+                <img src="RES/Images/Hyrule Warriors/lana_field_color.png" alt="image">
+                <img src="RES/Images/Hyrule Warriors/lana_twilight_color.png" alt="image">
+            </div>
+            <div class="heading">
+                <h2>Hyrule Warriors</h2>
+            </div>
         </div>
         <br>
         <br>
-        <div class="post">
-            <a href="#" style="text-align: center;display: inline-block;"><i class="fa fa-twitter"></i></a>
-            <a href="#" style="text-align: center;display: inline-block;"><i class="fa fa-twitch"></i></a>
-        </div>
+        <br>
     <!---End Center--->
     </div>
 <!---End Main Content--->
 <!---Script--->
     <script src="JS/rightClick.js"></script>
     <script src="JS/scrollNav.js"></script>
+    <script src="JS/search.js"></script>
 <!---End Script-->
 </body>
 </html>
