@@ -8,3 +8,15 @@
     height: 150px;
     width: 45%;
 }
+
+
+.header h2 {
+    position: absolute;
+    text-align: left;
+    background-color: black;
+    opacity: 0.8;
+    float: left;
+    padding: 14px 16px;
+    margin: 0;
+    cursor: context-menu;
+}
