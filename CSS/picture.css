@@ -1,11 +1,11 @@
 .bgimg img{
-    height: 300px;
+    height: 340px;
     width: 55%;
     float: left;
 }
 .simg img {
     float: right;
-    height: 150px;
+    height: 170px;
     width: 45%;
 }
 
@@ -19,4 +19,5 @@
     padding: 14px 16px;
     margin: 0;
     cursor: context-menu;
+    font-size: 20px;
 }
