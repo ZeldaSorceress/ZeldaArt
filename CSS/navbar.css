@@ -20,6 +20,7 @@ body {margin:0;}
 #navbar a:hover {
     background: black;
     color: white;
+    transition: 0.5s;
 }
 #navbar img{
     float: left;
