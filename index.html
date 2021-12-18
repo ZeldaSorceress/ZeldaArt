@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="CSS/scrollbar.css">
     <link rel="stylesheet" href="CSS/navbar.css">
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/picture.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <style>
@@ -18,6 +19,20 @@
     body {
         margin-top: 65px;
     }
+    .post {
+        padding: 15px;
+    }
+    .header h2{
+        width: 43%;
+        text-align: center;
+        line-height: 173px;
+        font-size: 26px;
+        text-shadow: 1px 1px 10px white;
+    }
+    .header h2:hover {
+        opacity: 0;
+        transition: 1.5s;
+    }
 </style>
 <body>
 
@@ -25,40 +40,90 @@
     <div id="navbar">
         <img src="RES/favicon.png">
         <a href="" style="float: left;">ZeldaSorceress</a>
-        <a href="index.html" style="float: right;background-color:#363636;color: white;"><i class="fa fa-home"></i> Home</a>
+        <a href="index.html" style="float: right;background-color: #363636;color: white;"><i class="fa fa-home"></i> Home</a>
         <a href="https://zelda.fandom.com/wiki/Main_Page" target="_blank" style="float: right;"><i class="fa fa-copyright"></i> Copyright</a>
         <a href="https://forms.gle/1pjeLgzMC36ZjjBF6" target="_blank" style="float: right;"><i class="fa fa-phone"></i> Contact</a>
-        <a href="picture.html" style="float: right;"><i class="fa fa-picture-o"></i> Pictures</a>
     </div>
 <!---End Horizontal Nav--->
-
-<!---Main Content--->
     <div class="main">
-    <!---Center--->
-        <br>
-        <br>
-        <div class="post" style="width: 55%;">
-            <div class="bgvideo">
-                <iframe src="https://www.youtube.com/embed/vE0pJ9yYqMM" frameborder="0" allowfullscreen></iframe>
+        <div class="post" style="width: 45%;float: left;margin-left: 40px;">
+            <div class="bgimg">
+                <img src="RES/Images/Age of Calamity/AoCZelda_color.png" alt="big image">
             </div>
-            <div class="svideo">
-                <iframe src="https://www.youtube.com/embed/H4J54SJKfeg" frameborder="0" allowfullscreen></iframe>
-                <br>
-                <iframe src="https://www.youtube.com/embed/H6j1wKUpbfo" frameborder="0" allowfullscreen></iframe>
+            <div class="simg">
+                <img src="RES/Images/Age of Calamity/daruk_color.png" alt="image">
+                <img src="RES/Images/Age of Calamity/hestu_color.png" alt="image">
             </div>
-            <div class="heading">
-                <h2>My YouTube Videos</h2>
+            <div class="header">
+                <h2>Age of Calamity</h2>
+            </div>
+        </div>
+        <div class="post" style="width: 45%;float: right;margin-right: 40px;">
+            <div class="bgimg">
+                <img src="RES/Images/Ocarina of Time/bongoBongo_color.png" alt="big image">
+            </div>
+            <div class="simg">
+                <img src="RES/Images/Ocarina of Time/darunia_Color.png" alt="image">
+                <img src="RES/Images/Ocarina of Time/zeldaOoT_color.png" alt="image">
+            </div>
+            <div class="header">
+                <h2>Ocarina of Time</h2>
             </div>
         </div>
         <br>
         <br>
+        <div class="post" style="width: 45%;float: right;margin-right: 40px;margin-top: 30px;">
+            <div class="bgimg">
+                <img src="RES/Images/Skyward Sword HD/ghirahim_color.png" alt="big image">
+            </div>
+            <div class="simg">
+                <img src="RES/Images/Skyward Sword HD/moldarach_color.png" alt="image">
+                <img src="RES/Images/Skyward Sword HD/scaldera_color.png" alt="image">
+            </div>
+            <div class="header">
+                <h2>Skyward Sword HD</h2>
+            </div>
+        </div>
+        <div class="post" style="width: 45%;float: left;margin-left: 40px;margin-top: 30px;">
+            <div class="bgimg">
+                <img src="RES/Images/Twilight Princess/argorok_color.png" alt="big image">
+            </div>
+            <div class="simg">
+                <img src="RES/Images/Twilight Princess/greatFairy_color.png" alt="image">
+                <img src="RES/Images/Twilight Princess/skullKid_color.png" alt="image">
+            </div>
+            <div class="header">
+                <h2>Twilight Princess</h2>
+            </div>
+        </div>
         <br>
-    <!---End Center--->
+        <br>
+        <div class="post" style="width: 45%;float: left;margin-left: 40px;margin-top: 30px;">
+            <div class="bgimg">
+                <img src="RES/Images/Wind Waker/helmarocKing_color.png" alt="big image">
+            </div>
+            <div class="simg">
+                <img src="RES/Images/Wind Waker/medli_color.png" alt="image">
+                <img src="RES/Images/Wind Waker/windZelda_color.png" alt="image">
+            </div>
+            <div class="header">
+                <h2>Wind Waker</h2>
+            </div>
+        </div>
+        <div class="post" style="width: 45%;float: left;margin-left: 15px;margin-top: 30px;">
+            <div class="bgimg">
+                <img src="" alt="big image">
+            </div>
+            <div class="simg">
+                <img src="" alt="image">
+                <img src="" alt="image">
+            </div>
+            <div class="header">
+                <h2>Coming Soon...</h2>
+            </div>
+        </div>
     </div>
-<!---End Main Content--->
-<!---Script--->
-    <script src="JS/rightClick.js"></script>
-    <script src="JS/scrollNav.js"></script>
-<!---End Script-->
 </body>
-</html>
+<script src="JS/rightClick.js"></script>
+<script src="JS/scrollNav.js"></script>
+<script src="JS/search.js"></script>
